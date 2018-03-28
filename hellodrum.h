@@ -7,13 +7,13 @@ class HelloDrum
     HelloDrum(int pin1, int pin2);
     HelloDrum(int pin1);
 
-    void HelloDrum::singlePiezo(int sens, int thre1, int thre2, int retri);
+    void singlePiezo(int sens, int thre1, int thre2, int retri);
 
     //void singlePiezo(int sens, int thre1, int thre2, int retri);
-    void HelloDrum::dualPiezo(int sens, int thre1, int thre2, int retri);
-    void HelloDrum::cymbal3zone(int sens, int thre1, int thre2, int retri);
-    void HelloDrum::cymbal2zone(int sens, int thre1, int thre2, int retri);
-    void HelloDrum::TCRT5000(int sens, int thre1, int thre2);
+    void dualPiezo(int sens, int thre1, int thre2, int retri);
+    void cymbal3zone(int sens, int thre1, int thre2, int retri);
+    void cymbal2zone(int sens, int thre1, int thre2, int retri);
+    void TCRT5000(int sens, int thre1, int thre2);
 
     int velocity;
     int pedalCC;

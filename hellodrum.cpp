@@ -23,51 +23,6 @@ HelloDrum::HelloDrum(int pin1)
   pin_1 = pin1;
 }
 
-int velocity() {
-  return velocity;
-}
-
-int pedalCC() {
-  return pedalCC;
-}
-
-
-int note() {
-  return note;
-}
-
-bool hit() {
-  return hit;
-}
-
-bool hit_rim() {
-  return hit_rim;
-}
-
-bool hit_edge() {
-  return hit_edge;
-}
-
-bool hit_cup() {
-  return hit_cup;
-}
-
-bool openHH() {
-  return openHH;
-}
-
-bool closeHH() {
-  return closeHH;
-}
-
-bool choke() {
-  return choke;
-}
-
-bool moving() {
-  return moving;
-}
-
 /////////////////////////////////////////////////////////////////////////
 
 void HelloDrum::singlePiezo(int sens, int thre1, int thre2, int retri) {
